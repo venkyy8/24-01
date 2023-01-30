@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git checkout'){
             steps {
-                git branch: 'main', url: 'https://github.com/venkyy8/freestylejob.git'
+                git branch: 'master', url: 'https://github.com/venkyy8/24-01.git'
             }
     }
 }
