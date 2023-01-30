@@ -9,5 +9,10 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/venkyy8/freestylejob.git'
             }
     }
+        stage('maven clean'){
+            steps {
+            sh 'mvn clean'
+            }
+    }
 }
 }
